@@ -41,14 +41,6 @@ background-color: #fff;
 
 
 
-
-
-
-
-
-
-
-
 .dropbtn {
   background-color: #3385ff;
   color: white;
@@ -94,4 +86,58 @@ background-color: #fff;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #66c2ff;
+}
+
+
+marquee{
+text-align: center;
+  font-size: 22px;
+  position: relative;
+  left: 20%;
+  top:20px;
+font-size: 15px;
+font-style: normal;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .main .brand{
+     font-size: 35px;
+  }
+  .youtube{
+  font-weight: bolder;
+
+  }
+  .contact{
+  font-weight: bolder;
+
+  }
+.download{
+font-weight: bolder;
+
+}
+.list{
+
+  width:90%;
+    left:5%;
+top:20px;
+}
+
+.dropbtn {
+padding: 22px;
+  font-size: 22px;
+  min-width : 520px;
+
+}
+.dropdown-content {
+
+  min-width: 520px;
+
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
 }
